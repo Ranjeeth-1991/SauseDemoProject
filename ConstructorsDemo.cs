@@ -3,8 +3,8 @@
     class ConstructorsDemo
     {
         static int y;
-        int x;
-        static ConstructorsDemo()
+        int x; //a variable
+        static ConstructorsDemo() //specific class
         {
             Console.WriteLine("Static Constructor is Called.");
         }
